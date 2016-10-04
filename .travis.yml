@@ -6,6 +6,6 @@ before_script:
   - npm install -g grunt-cli
 script: grunt
 deploy:
-	provider: heroku
-	api_key: $(HerokuKey)
-	app: almtest
+  provider: heroku
+  api_key: $(HerokuKey)
+  app: almtest
