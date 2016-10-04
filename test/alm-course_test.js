@@ -28,5 +28,7 @@ exports['welcomeMessage'] = {
   },
   'all tests': function(test) {
     //Create your test here!
+    test.equal(alm_course.sum(10,9),19);
+    test.done();
   },
 };
