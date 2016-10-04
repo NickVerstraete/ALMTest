@@ -29,6 +29,7 @@ exports['welcomeMessage'] = {
   'all tests': function(test) {
     //Create your test here!
     test.equal(alm_course.sum(10,9),19);
+    test.throws(alm_course.sum(null, 10),"not a number");
     test.done();
   },
 };
